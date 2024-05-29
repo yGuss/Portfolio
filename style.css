@@ -533,6 +533,9 @@ footer {
   .hero-text {
     padding-top: 2rem;
   }
+  .hero-text a {
+    font-size: 22px;
+  }
   .about-title {
     margin-top: 5rem;
     text-align: center;
