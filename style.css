@@ -531,6 +531,10 @@ footer {
   .bg-home {
     background-size: cover;
   }
+  .hero-logo img {
+    width: 200px;
+    margin-top: 1rem;
+  }
   .hero,
   .about-content,
   .card-container {
