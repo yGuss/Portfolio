@@ -116,6 +116,10 @@ header {
     top: 70px;
   }
 }
+body {
+  overflow-x: hidden;
+}
+
 .container {
   max-width: 1440px;
   margin: auto;
