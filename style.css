@@ -538,6 +538,7 @@ footer {
     padding-top: 2rem;
   }
   .hero-text a {
+    padding: 10px 15px;
     font-size: 22px;
   }
   .about-title {
