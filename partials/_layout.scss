@@ -454,6 +454,10 @@ footer {
 
 @media (max-width:992px) {
 
+    .bg-home {
+        background-size: cover;
+    }
+
     .hero,
     .about-content,
     .card-container {
