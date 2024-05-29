@@ -41,11 +41,6 @@ header {
     transition: transform .8s;
 }
 
-.header-links a:hover {
-    transform: translateY(-8px) scale(1.1);
-}
-
-
 .header-links a::after {
     content: '';
     display: block;
