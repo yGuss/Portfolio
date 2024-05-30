@@ -216,12 +216,11 @@ body {
     background-color: $bg-normal;
     border-radius: 35px;
     width: 400px;
-    height: 500px;
+    height: 100%;
     transition: transform .8s;
 
     hr {
         border: 1px solid $grey-normal;
-        margin-bottom: 20px;
     }
 }
 
@@ -286,6 +285,7 @@ body {
         padding: 10px 20px;
         box-shadow: -6px 6px 20px rgba(#000, 25%);
         transition: transform .5s;
+        margin-bottom: 20px;
     }
 
     a:hover {
@@ -425,6 +425,7 @@ body {
 }
 
 
+
 .button-back:hover {
     background-color: $bg-black;
     -webkit-transition: all 0.2s ease 0s;
@@ -443,7 +444,7 @@ body {
 footer {
     background-color: $bg-black;
     color: $white-normal;
-    padding: 30px 0 20px;
+    padding: 30px 20px;
     text-align: center;
     font-size: 18px;
     font-weight: 500;
