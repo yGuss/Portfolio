@@ -36,21 +36,21 @@ body {
     h3 {
         font-size: 28px;
         font-weight: 500;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         color: $blue-primary;
     }
 
     h1 {
         font-size: 56px;
         color: $white-normal;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     p {
         font-size: 24px;
         font-weight: 500;
         color: $grey-normal;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
 
     a {
@@ -194,6 +194,7 @@ body {
         display: inline-block;
         border: 8px solid $blue-primary;
         outline: 6px solid $blue-primary;
+        border-radius: 1px;
         outline-offset: 6px;
     }
 

@@ -150,19 +150,19 @@ body {
 .hero-text h3 {
   font-size: 28px;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: #00fff5;
 }
 .hero-text h1 {
   font-size: 56px;
   color: #fff;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .hero-text p {
   font-size: 24px;
   font-weight: 500;
   color: #B4B4B4;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 .hero-text a {
   font-size: 28px;
@@ -286,6 +286,7 @@ body {
   display: inline-block;
   border: 8px solid #00fff5;
   outline: 6px solid #00fff5;
+  border-radius: 1px;
   outline-offset: 6px;
 }
 .projetos-title h1 {
