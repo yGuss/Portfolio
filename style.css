@@ -233,6 +233,10 @@ textarea {
 .about-sub {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+.about-sub img {
+  width: 370px;
 }
 
 .about-links {

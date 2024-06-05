@@ -131,6 +131,11 @@ textarea {
 .about-sub {
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 370px;
+    }
 }
 
 .about-links {
