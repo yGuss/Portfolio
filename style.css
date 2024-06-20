@@ -324,7 +324,9 @@ textarea {
   overflow: hidden;
 }
 .card hr {
-  border: 1px solid #B4B4B4;
+  position: absolute;
+  top: -20px;
+  border: 1px solid red;
 }
 
 .card:hover {
