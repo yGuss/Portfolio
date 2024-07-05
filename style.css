@@ -300,6 +300,7 @@ textarea {
   border: 8px solid #00fff5;
   outline: 6px solid #00fff5;
   outline-offset: 6px;
+  transition: all 0.5s;
 }
 .projetos-title h1 {
   display: inline-block;
@@ -313,20 +314,21 @@ textarea {
 .card-container {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 25px;
 }
 
 .card {
   background-color: #2A3542;
   border-radius: 35px;
-  width: 400px;
+  width: 90%;
+  max-width: 400px;
   height: 100%;
   transition: transform 0.8s;
   overflow: hidden;
+  transition: all 0.5s;
 }
 .card hr {
-  position: absolute;
-  top: -20px;
-  border: 1px solid red;
+  border: 1px solid #B4B4B4;
 }
 
 .card:hover {
@@ -442,6 +444,7 @@ textarea {
   display: flex;
   gap: 1rem;
   align-items: center;
+  transition: all 0.5s;
 }
 .form-top input {
   padding: 10px;
@@ -470,6 +473,7 @@ textarea {
 
 .form-down {
   margin-top: 1rem;
+  transition: all 0.5s;
 }
 .form-down textarea {
   padding: 10px;
@@ -525,7 +529,7 @@ textarea {
 
 .button-back:hover {
   background-color: #212832;
-  transition: all 0.2s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 .button-back:hover a {
   color: #00fff5;
