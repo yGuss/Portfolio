@@ -1,263 +1,349 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Porfólio | Gustavo Fernandes</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="bg-home">
-        <header id="home">
-            <nav class="header-content container">
-                <div class="header-logo">
-                    <img src="../Portfolio/assets/logo.svg" alt="Logo Gustavo Fernandes">
-                </div>
+      <header id="home">
+        <nav class="header-content container">
+          <div class="header-logo">
+            <img
+              src="../Portfolio/assets/logo.svg"
+              alt="Logo Gustavo Fernandes"
+            />
+          </div>
 
-                <div class="header-links">
-                    <ul class="links">
-                        <li> <a href="#about">Sobre</a>
-                        <li> <a href="#projetos">Projetos</a></li>
-                        <li> <a href="#contact">Contato</a></li>
-                    </ul>
-                </div>
-                <div class="toggle-btn"><i class="fa-solid fa-bars"></i></div>
+          <div class="header-links">
+            <ul class="links">
+              <li><a href="#about">Sobre</a></li>
+              <li><a href="#projetos">Projetos</a></li>
+              <li><a href="#contact">Contato</a></li>
+            </ul>
+          </div>
+          <div class="toggle-btn"><i class="fa-solid fa-bars"></i></div>
 
-                <div class="dropdown-menu ">
-                    <li> <a href="#about">Sobre</a>
-                    <li> <a href="#projetos">Projetos</a></li>
-                    <li> <a href="#contact">Contato</a></li>
-                </div>
-            </nav>
+          <div class="dropdown-menu">
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </div>
+        </nav>
 
-            <main class="hero container">
-                <div class="hero-text" data-aos="fade-right">
-                    <h3>Desenvolvedor Full-Stack</h3>
-                    <h1>Gustavo Fernandes</h1>
-                    <p>Me chamo Gustavo, sou Desenvolvedor Back-end
-                        <br>
-                        e fique a vontade para conhecer mais sobre meu trabalho.
-                    </p>
-                    <div class="hero-btn">
-                        <a href="assets/cv.pdf" download="Currículo Gustavo Henrique.pdf">BAIXAR CURRÍCULO <i
-                                class="fa-solid fa-file-pdf"></i></a>
-                    </div>
-                </div>
-                <div class="hero-logo" data-aos="fade-left">
-                    <img src="../Portfolio/assets/coding.svg" alt="Foto mesa com computador">
-                </div>
-            </main>
-        </header>
+        <main class="hero container">
+          <div class="hero-text" data-aos="fade-right">
+            <h3>Desenvolvedor Full-Stack</h3>
+            <h1>Gustavo Fernandes</h1>
+            <p>
+              Me chamo Gustavo, sou Desenvolvedor Back-end
+              <br />
+              e fique a vontade para conhecer mais sobre meu trabalho.
+            </p>
+            <div class="hero-btn">
+              <a href="assets/cv.pdf" download="Currículo Gustavo Henrique.pdf"
+                >BAIXAR CURRÍCULO <i class="fa-solid fa-file-pdf"></i
+              ></a>
+            </div>
+          </div>
+          <div class="hero-logo" data-aos="fade-left">
+            <img
+              src="../Portfolio/assets/coding.svg"
+              alt="Foto mesa com computador"
+            />
+          </div>
+        </main>
+      </header>
     </div>
 
     <section id="about" class="about">
-        <div class="about-content container">
-            <div class="about-profile" data-aos="fade-right">
-                <div class="about-photo">
-                    <img src="../Portfolio/assets/profile.jpg" alt="Foto de perfil">
-                </div>
-                <div class="about-sub">
-                    <img src="../Portfolio/assets/logo.svg" alt="Logo Gustavo Fernandes">
-                    <div class="about-links">
-                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                        <a href="#"><i class="fa-brands fa-github"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-regular fa-envelope"></i></a>
-                    </div>
-                </div>
+      <div class="about-content container">
+        <div class="about-profile" data-aos="fade-right">
+          <div class="about-photo">
+            <img src="../Portfolio/assets/profile.jpg" alt="Foto de perfil" />
+          </div>
+          <div class="about-sub">
+            <img
+              src="../Portfolio/assets/logo.svg"
+              alt="Logo Gustavo Fernandes"
+            />
+            <div class="about-links">
+              <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="#"><i class="fa-brands fa-github"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-regular fa-envelope"></i></a>
             </div>
-            <div class="about-sobre" data-aos="fade-left">
-                <div class="about-title">
-
-                    <span></span>
-                    <h1>Sobre mim</h1>
-                </div>
-                <p>Estou me especializando para me tornar um Desenvolvedor Full Stack. Moro atualmente no interior
-                    de (MG).
-                    <br><br>
-                    No momento tenho conhecimento na parte frontend com HTML, CSS, JS, e integrando banco de dados com
-                    PHP, MySQL e PostgreSQL.
-                    <br><br>
-                    Além do que já conheço, venho melhorando a cada dia minhas noções em Suporte de TI, redes e me
-                    aprofundando em backend onde coloco em prática através de projetos no ar todo o conhecimento que
-                    venho adquirindo. Pretendo ainda estudar mais sobre desenvolvimento Mobile e outros frameworks
-                    frontend/backend.
-                </p>
-            </div>
+          </div>
         </div>
+        <div class="about-sobre" data-aos="fade-left">
+          <div class="about-title">
+            <span></span>
+            <h1>Sobre mim</h1>
+          </div>
+          <p>
+            Estou me especializando para me tornar um Desenvolvedor Full Stack.
+            Moro atualmente no interior de (MG). <br /><br />
+            No momento tenho conhecimento na parte frontend com HTML, CSS, JS, e
+            integrando banco de dados com PHP, MySQL e PostgreSQL.
+            <br /><br />
+            Além do que já conheço, venho melhorando a cada dia minhas noções em
+            Suporte de TI, redes e me aprofundando em backend onde coloco em
+            prática através de projetos no ar todo o conhecimento que venho
+            adquirindo. Pretendo ainda estudar mais sobre desenvolvimento Mobile
+            e outros frameworks frontend/backend.
+          </p>
+        </div>
+      </div>
     </section>
 
     <section id="projetos" class="projetos">
-        <div class="projetos-content container">
-            <div class="projetos-title" data-aos="zoom-in-up">
-                <span></span>
-                <h1>Projetos</h1>
-            </div>
-
-            <div class="card-container">
-
-                <div class="card" data-aos="zoom-in-up" data-aos-duration="500">
-                    <div class="card-photo">
-                        <img src="../Portfolio/assets/cardapio.png" alt="Foto do projeto Cardápio Online">
-                    </div>
-                    <div class="card-utilities">
-                        <p>HTML</p>
-                        <p>TailwindCSS</p>
-                        <p>JavaScript</p>
-                    </div>
-                    <div class="card-info">
-                        <p>Um projeto de cardápio online com carrinho integrado que envia o pedido para o WhatsApp da
-                            lanchonete. </p>
-                    </div>
-                    <div class="card-btn">
-                        <a href="https://cardapiofernandes.vercel.app/">ACESSAR</a>
-                    </div>
-                </div>
-                <div class="card" data-aos="zoom-in-up" data-aos-duration="500">
-                    <div class="card-photo">
-                        <img src="../Portfolio/assets/chamados.png" alt="Foto do projeto Sistema de chamados">
-                    </div>
-                    <div class=" card-utilities">
-                        <p>HTML</p>
-                        <p>ReactJS</p>
-                        <p>Firebase</p>
-                    </div>
-                    <div class="card-info">
-                        <p>Um projeto de cadastro de chamados e clientes,com personalização de perfil,
-                            visualizar e editar
-                            os chamados. </p>
-                    </div>
-                    <div class="card-btn">
-                        <a href="https://systemtickets.netlify.app/">ACESSAR</a>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="card-container">
-                <div class="card" data-aos="zoom-in-up" data-aos-duration="500">
-                    <div class="card-photo">
-                        <img src="../Portfolio/assets/busca-cep.png" alt="Foto do projeto Busca Cep">
-                    </div>
-                    <div class="card-utilities">
-                        <p>HTML</p>
-                        <p>CSS</p>
-                        <p>JavaScript</p>
-                    </div>
-                    <div class="card-info">
-                        <p>Um projeto que realiza a consulta de CEP, utilizando Fetch para buscar as requisições. Foi
-                            utilizado a API VIA CEP.</p>
-                    </div>
-                    <div class="card-btn">
-                        <a href="https://yguss.github.io/BuscaCEP/">ACESSAR</a>
-                    </div>
-                </div>
-
-                <div class="card" data-aos="zoom-in-up" data-aos-duration="500">
-
-                    <div class="card-photo">
-                        <img src="../Portfolio/assets/lista-tarefas.png" alt="">
-                    </div>
-                    <div class="card-utilities">
-                        <p>HTML</p>
-                        <p>ReactJS</p>
-                        <p>Firebase</p>
-                    </div>
-                    <div class="card-info">
-                        <p>Um projeto lista de tarefas que salva no banco de dados Firebase, integrado com autenticação
-                            de usuário.</p>
-                    </div>
-                    <div class="card-btn">
-                        <a href="https://minhalistatarefas.netlify.app/">ACESSAR</a>
-                    </div>
-                </div>
-
-                <div class="card" data-aos="zoom-in-up" data-aos-duration="500">
-                    <div class="card-photo">
-                        <img src="../Portfolio/assets/cineflix.png" alt="Foto do projeto Lista de tarefas">
-                    </div>
-                    <div class="card-utilities">
-                        <p>HTML</p>
-                        <p>ReactJS</p>
-                        <p>API</p>
-                    </div>
-                    <div class="card-info">
-                        <p>Um projeto que consome a API do TMDB e lista e acessa os detalhes dos filmes, há também uma
-                            guia de filmes favoritos. </p>
-                    </div>
-                    <div class="card-btn">
-                        <a href="https://cineflixfilmes.netlify.app/">ACESSAR</a>
-                    </div>
-                </div>
-
-
-            </div>
+      <div class="projetos-content container">
+        <div class="projetos-title" data-aos="zoom-in-up">
+          <span></span>
+          <h1>Projetos</h1>
         </div>
 
+        <div class="card-container">
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="500">
+            <div class="card-photo">
+              <img
+                src="../Portfolio/assets/barbearia.png"
+                alt="Foto do projeto Barbearia"
+              />
+            </div>
+            <div class="card-utilities">
+              <p>Next</p>
+              <p>Shadcn</p>
+              <p>NeonDB</p>
+            </div>
+
+            <div class="card-info">
+              <p>
+                Um projeto de barbearia onde é possível agendar serviços em
+                barbearias. A autenticação é feita com o Google.
+              </p>
+            </div>
+            <div class="card-btn">
+              <a href="https://fernandesbarber.vercel.app/">ACESSAR</a>
+            </div>
+          </div>
+
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="500">
+            <div class="card-photo">
+              <img
+                src="../Portfolio/assets/cardapio.png"
+                alt="Foto do projeto Cardápio Online"
+              />
+            </div>
+            <div class="card-utilities">
+              <p>HTML</p>
+              <p>TailwindCSS</p>
+              <p>JavaScript</p>
+            </div>
+            <div class="card-info">
+              <p>
+                Um projeto de cardápio online com carrinho integrado que envia o
+                pedido para o WhatsApp da lanchonete.
+              </p>
+            </div>
+            <div class="card-btn">
+              <a href="https://cardapiofernandes.vercel.app/">ACESSAR</a>
+            </div>
+          </div>
+
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="500">
+            <div class="card-photo">
+              <img
+                src="../Portfolio/assets/chamados.png"
+                alt="Foto do projeto Sistema de chamados"
+              />
+            </div>
+            <div class="card-utilities">
+              <p>HTML</p>
+              <p>ReactJS</p>
+              <p>Firebase</p>
+            </div>
+            <div class="card-info">
+              <p>
+                Um projeto de cadastro de chamados e clientes,com personalização
+                de perfil, visualizar e editar os chamados.
+              </p>
+            </div>
+            <div class="card-btn">
+              <a href="https://systemtickets.netlify.app/">ACESSAR</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-container">
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="500">
+            <div class="card-photo">
+              <img
+                src="../Portfolio/assets/busca-cep.png"
+                alt="Foto do projeto Busca Cep"
+              />
+            </div>
+            <div class="card-utilities">
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JavaScript</p>
+            </div>
+            <div class="card-info">
+              <p>
+                Um projeto que realiza a consulta de CEP, utilizando Fetch para
+                buscar as requisições. Foi utilizado a API VIA CEP.
+              </p>
+            </div>
+            <div class="card-btn">
+              <a href="https://yguss.github.io/BuscaCEP/">ACESSAR</a>
+            </div>
+          </div>
+
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="500">
+            <div class="card-photo">
+              <img src="../Portfolio/assets/lista-tarefas.png" alt="" />
+            </div>
+            <div class="card-utilities">
+              <p>HTML</p>
+              <p>ReactJS</p>
+              <p>Firebase</p>
+            </div>
+            <div class="card-info">
+              <p>
+                Um projeto lista de tarefas que salva no banco de dados
+                Firebase, integrado com autenticação de usuário.
+              </p>
+            </div>
+            <div class="card-btn">
+              <a href="https://minhalistatarefas.netlify.app/">ACESSAR</a>
+            </div>
+          </div>
+
+          <div class="card" data-aos="zoom-in-up" data-aos-duration="500">
+            <div class="card-photo">
+              <img
+                src="../Portfolio/assets/cineflix.png"
+                alt="Foto do projeto Lista de tarefas"
+              />
+            </div>
+            <div class="card-utilities">
+              <p>HTML</p>
+              <p>ReactJS</p>
+              <p>API</p>
+            </div>
+            <div class="card-info">
+              <p>
+                Um projeto que consome a API do TMDB e lista e acessa os
+                detalhes dos filmes, há também uma guia de filmes favoritos.
+              </p>
+            </div>
+            <div class="card-btn">
+              <a href="https://cineflixfilmes.netlify.app/">ACESSAR</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="contact" class="contact">
-        <div class="contact-content container">
-            <div class="contact-title" data-aos="flip-left" data-aos-delay="100">
-                <span></span>
-                <h1>Fale comigo</h1>
-            </div>
-
-            <form action="POST">
-                <div class="form-top">
-                    <input type="text" name="name" placeholder="Nome" required data-aos="flip-down" data-aos-delay="100"
-                        data-aos-duration="800">
-                    <input type="text" name="email" placeholder="Email" required data-aos="flip-down"
-                        data-aos-delay="100" data-aos-duration="800">
-                    <input type="text" name="assunto" placeholder="Assunto" required data-aos="flip-down"
-                        data-aos-delay="100" data-aos-duration="800">
-                </div>
-                <div class="form-down">
-                    <textarea name="mensagem" rows="6" placeholder="Sua Mensagem" data-aos="flip-down"
-                        data-aos-duration="800"></textarea>
-                </div>
-            </form>
+      <div class="contact-content container">
+        <div class="contact-title" data-aos="flip-left" data-aos-delay="100">
+          <span></span>
+          <h1>Fale comigo</h1>
         </div>
-        <button type="submit" data-aos="zoom-in" data-aos-duration="800">Enviar Mensagem</button>
+
+        <form action="POST">
+          <div class="form-top">
+            <input
+              type="text"
+              name="name"
+              placeholder="Nome"
+              required
+              data-aos="flip-down"
+              data-aos-delay="100"
+              data-aos-duration="800"
+            />
+            <input
+              type="text"
+              name="email"
+              placeholder="Email"
+              required
+              data-aos="flip-down"
+              data-aos-delay="100"
+              data-aos-duration="800"
+            />
+            <input
+              type="text"
+              name="assunto"
+              placeholder="Assunto"
+              required
+              data-aos="flip-down"
+              data-aos-delay="100"
+              data-aos-duration="800"
+            />
+          </div>
+          <div class="form-down">
+            <textarea
+              name="mensagem"
+              rows="6"
+              placeholder="Sua Mensagem"
+              data-aos="flip-down"
+              data-aos-duration="800"
+            ></textarea>
+          </div>
+        </form>
+      </div>
+      <button type="submit" data-aos="zoom-in" data-aos-duration="800">
+        Enviar Mensagem
+      </button>
     </section>
     <div class="button-back">
-        <a href="#home"><i class="fa-solid fa-arrow-up fa-xl "></i></a>
+      <a href="#home"><i class="fa-solid fa-arrow-up fa-xl"></i></a>
     </div>
 
-    <footer>CopyRight © 2024 Gustavo Fernandes | Todos os Direitos Reservados
-
+    <footer>
+      CopyRight © 2024 Gustavo Fernandes | Todos os Direitos Reservados
     </footer>
-</body>
+  </body>
 
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
     AOS.init();
-</script>
+  </script>
 
-<script>
-    const toggleBtn = document.querySelector('.toggle-btn')
-    const toggleBtnIcon = document.querySelector('.toggle-btn i')
-    const dropDownMenu = document.querySelector('.dropdown-menu')
+  <script>
+    const toggleBtn = document.querySelector(".toggle-btn");
+    const toggleBtnIcon = document.querySelector(".toggle-btn i");
+    const dropDownMenu = document.querySelector(".dropdown-menu");
 
     toggleBtn.onclick = function () {
-        dropDownMenu.classList.toggle('open')
-        const isOpen = dropDownMenu.classList.contains('open')
+      dropDownMenu.classList.toggle("open");
+      const isOpen = dropDownMenu.classList.contains("open");
 
-        toggleBtnIcon.classList = isOpen
-            ? 'fa-solid fa-xmark fa-lg'
-            : 'fa-solid fa-bars'
-    }
-</script>
-
+      toggleBtnIcon.classList = isOpen
+        ? "fa-solid fa-xmark fa-lg"
+        : "fa-solid fa-bars";
+    };
+  </script>
 </html>
